@@ -70,10 +70,10 @@ h1, h2{
 }
 
 .test1 {
-    position: relative;
+    position: absolute;
     z-index: 200;
-    top: 60px;
-    left: 50px;
+    left: 290px;
+
 
 }
 
@@ -83,18 +83,44 @@ h1, h2{
     width: 1000px;
     background: #808080;
     z-index: 100;
-    top: 100px;
-    left: 370px;
+    top: 40px;
+    left: 320px;
 }
 
 .test3 {
     position: absolute;
     border: 2px solid black;
     width: 1000px;
-    top: 120px;
-    left: 400px;
+    top: 60px;
+    left: 350px;
     background: #696969;
+    margin-bottom: 20px;
 }
 
+.test4 {
+    border: 1px solid black;
+    background: orange;
+    width: 150px;
+    height: 100px;
+    float: right;
+    position: fixed;
+    bottom:  20px;
+    right: 20px;
+    text-align: center;
+}
 
+.test4:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.imgSmoll {
+    width: 25px;
+    height: 25px;
+}
 
