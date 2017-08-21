@@ -1,0 +1,108 @@
+h1 {
+    text-transform: uppercase;
+    font-family: Georgia;
+    color: coral;
+    text-align: center;
+}
+
+a {
+
+}
+
+nav a {
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.menu {
+    float: left;
+    width: 200px;
+    border: 2px solid grey;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.menu:after {
+
+    clear: both;
+    content: ";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+
+aside {
+    float: right;
+    width: 300px;
+    border-left: 2px solid grey;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.ttest {
+    position: fixed;
+    right: 1px;
+}
+
+aside:after {
+
+    clear: both;
+    content: ";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.foot{
+    background: #333;
+    padding: 1px;
+    color: #fff;
+    clear: both;
+}
+
+.prik:hover {
+    color:red;
+    border: 1px solid red;
+}
+
+.contentP {
+    font: 12pt san-serif;
+    text-align: center;
+
+}
+
+.content {
+    margin: 0px 300px 10px 200px;
+    clear: both;
+}
+
+.asi{
+    clear:both;
+    content:";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+

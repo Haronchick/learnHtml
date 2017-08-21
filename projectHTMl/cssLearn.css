@@ -1,0 +1,123 @@
+span:not(.descript){
+    color: orange;
+    <!-- всекромедескрипшен -->
+}
+
+span::after{
+    content: "iv after";
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 60px;
+    vertical-align: bottom;
+    font-family: Arial;
+}
+
+p{
+    font: italic bold small-caps 16px/30px Georgia; ;
+}
+
+a {
+    text-align: left;
+    text-decoration: none;
+    text-decoration: uppercase;
+    letter-spacing: 10px;
+    color: rgb(255,255,255);
+    background-color: #fff;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background: #fff url("");
+    margin: top right bottom left; 'целый элемент сдвигается'
+    bordr: width style color;
+    padding: 'внутнреннее растояние от текста до границы';
+}
+
+ul{
+    padding-top: 10px;
+    jont-sze:0;
+
+}
+li{
+    border: 1px solid green;
+    font-size: 20px;
+    margin: 10px;
+    padding: 25px;
+    display: inline-block;
+}
+
+ul li>span {
+    border: none;
+}
+
+ul li + li {    <!--всекромепервого -->
+    color: red;
+}
+
+hr ~ p { <!-- всепослеhr -->
+    color: red;
+}
+
+.example {   <!-- class -->
+    color: red;
+    background-color: yellow;
+}
+
+#cortik {
+    color: aqua;
+}
+
+a[target] {
+    background-color: yellow;
+}
+
+a[target='_blank'] {
+    color: azure;
+}
+
+a[hrref$='.org'] {
+    color: red;
+}
+
+h1::first-letter {
+    color: crimson;
+<!-- firstline -->
+}
+
+.etc:hover {
+    color: greenyellow;
+<!-- focus -->
+}
+
+li:first-child {
+    border: none;
+<!-- lastchild -->
+}
+tr:nth-child(3) {
+    color: red;
+<!-- какуюстрокуподкраситьможночетныенечетные -->
+}
+
+tr {
+    overflow: hidden;
+}
+
+tr {
+    float: left;
+}
+
+tr:after { <!-- дляпотока -->
+    clear:both;
+    content:";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+tr {
+    overflow: hidden;
+}

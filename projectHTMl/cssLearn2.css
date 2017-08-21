@@ -1,0 +1,108 @@
+
+nav{
+    font-size: 0;
+}
+aside{
+    border: 2px solid black;
+    background: #696969;
+    float: left;
+    height: 100%;
+}
+
+.sect:after{
+
+    clear:both;
+    content:";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+body{
+    background: darkgrey;
+}
+
+nav li{
+    margin: 10px;
+    display: block;
+    border: 5px dashed deepskyblue;
+    padding: 15px;
+    font: 20px 'intro_condblack_free', Arial, sans-serif;
+    color: deepskyblue;
+    text-transform: uppercase;
+    width: 110px;
+
+}
+li:hover {
+    border: 5px dashed red;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+span {
+
+
+}
+img {
+    border: 2px dashed black;
+    margin: 10px 10px 10px 350px;
+}
+
+p {
+    text-align: center;
+}
+
+#cortik {
+    color: brown;
+    text-align: center;
+}
+
+.spam {
+    background: lightskyblue;
+    float: right;
+    width: 350px;
+    height: 100%;
+
+}
+
+.foot:after {
+    clear:both;
+    content:";";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+
+}
+
+
+
+.example {   <!-- class -->
+    color: red;
+    background-color: yellow;
+}
+
+.etc:hover {
+    color: red;
+
+}
+ h1{
+     text-align: center;
+ }
+
+h3 {
+    ali  : center;
+}
+
+.border-readius {
+    width:100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20px 50px 50px 20px;
+}
+
