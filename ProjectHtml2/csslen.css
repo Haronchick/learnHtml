@@ -1,0 +1,100 @@
+div {
+    background: darkgrey;
+    border: 2px solid black;
+    width: 1000px;
+    margin: auto;
+}
+
+div:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+h1, h2{
+    margin-left: 40px;
+}
+
+.imgLeft {
+    margin: 0px 20px 10px 0px;
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+.fig {
+    font:  14pt Time;
+}
+
+.fig:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.imgRight {
+    float: right;
+    margin: 0px 0px 20px 20px;
+    width: 250px;
+    height: 300px;
+}
+
+
+.imgLeftDown {
+
+    margin: 10px 60px 10px 40px;
+    width: 400px;
+    height: 200px;
+}
+
+
+.imgRightDown1 {
+    margin: 10px 0px 10px 60px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.foot {
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+}
+
+.test1 {
+    position: relative;
+    z-index: 200;
+    top: 60px;
+    left: 50px;
+
+}
+
+.test2 {
+    position: absolute;
+    border: 2px solid black;
+    width: 1000px;
+    background: #808080;
+    z-index: 100;
+    top: 100px;
+    left: 370px;
+}
+
+.test3 {
+    position: absolute;
+    border: 2px solid black;
+    width: 1000px;
+    top: 120px;
+    left: 400px;
+    background: #696969;
+}
+
+
+
