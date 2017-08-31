@@ -9,7 +9,7 @@ footer{
     height: 573px;
     margin-top: -573px;
 }
-h2 {
+h2,h3 {
     margin: 0;
     padding: 0;
 }
@@ -112,19 +112,23 @@ a {
 }
 .great_title {
     display: block;
-    padding: 480px 0 0 640px;
     font-size: 3.5rem;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
 }
+.video .great_title {
+    padding: 480px 0 0 640px;
+}
 .subsidiary_title{
     display: block;
-    padding-left: 540px;
     font-size: 3.5rem;
     font-weight: lighter;
     color:#fff;
     text-transform: uppercase;
+}
+.video .subsidiary_title {
+    padding-left: 540px;
 }
 .icon_buttom-circle {
     background-color: #032f3e;
@@ -179,6 +183,9 @@ a {
     color: #032f3e;
     text-transform: uppercase;
 }
+.services_block .min_title {
+    padding-top: 150px;
+}
 .dash {
     color: #ab987a;
     font-size: 30px;
@@ -188,4 +195,79 @@ a {
     /*color: #616161;*/
     font-size: 16px;
     color: #757576;
+}
+.services_block_icon {
+    list-style: none;
+}
+.name_for_items {
+    font-size: 16px;
+    font-weight: bold;
+    color: #032f3e;
+    text-transform: uppercase;
+}
+.services_block_icon li {
+    width: 33%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.services_block_icon .name_for_items{
+    padding-top: 25px;
+}
+.ico {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #ab987a;
+    border-radius: 50%;
+}
+
+.services_block_icon .ico {
+   text-align: center;
+    color: #ab987a;
+    font-size: 65px;
+    margin-top: 240px;
+    margin-left: 105px;
+    line-height: 170px;
+}
+.our_lessons {
+    height: 975px;
+    background: #032f3e;
+}
+
+.our_lessons .great_title {
+    padding: 110px 0 30px;
+}
+.our_lessons .subsidiary_title {
+    padding-bottom: 100px;
+}
+.our_lessons .name_for_items {
+    color: #f8f9fb;
+    display: inline-block;
+    padding-left: 50px;
+}
+.our_lessons li {
+    list-style: none;
+}
+.our_lessons_icon {
+    color: #ab987a;
+    font-size: 40px;
+    /*margin-bottom: 100px;*/
+}
+.line {
+    border: 1px solid #f8f9fb;
+}
+.our_lessons .line {
+    transform: rotate(90deg);
+    width: 30px;
+    height: 0;
+    margin: 50px 0;
+}
+.our_projects {
+    background: #f8f9fb;
+    height: 440px;
+    text-align: center;
+}
+.our_projects .name_for_items {
+    font-size: 25px;
+    padding-top: 150px;
 }
