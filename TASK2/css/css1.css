@@ -283,9 +283,13 @@ a {
     color: #b5b5b5;
     font-size: 16px;
     padding-right: 10px;
+
+}
+.figure_goto_project .icon_grey{
+    display: inline;
 }
  .icon i, .icon_grey i {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .section_goto_project {
 
@@ -752,8 +756,17 @@ a {
 .bottom_top_text {
     width: auto;
 }
-
 .title_footer_bottom {
     line-height: 113px;
     color: #46616a;
+}
+.grey_links_bottom a{
+    color: #46616a;
+    font-size: 14px;
+    margin-right: 20px;
+
+}
+.grey_links_bottom {
+    line-height: 113px;
+    float: right;
 }
