@@ -1,0 +1,101 @@
+ body, ul, nav {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.head, .footer {
+    width: 100%;
+    height: 200px;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    line-height: 200px;
+    background: deepskyblue;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 20%;
+    font-family: Arial;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: hotpink;
+    border-left: 10px solid black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.item li {
+    list-style: none;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu nav {
+    text-align: left;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content {
+    width:60%;
+    font-family: Arial;
+    text-align: center;
+    background: yellow;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    box-sizing: border-box;
+}
+
+ .content h1{
+     font-size: 100px;
+     text-transform: uppercase;
+     padding: 0;
+     margin: 0;
+ }
+
+ .content p {
+     font-family: Arial;
+     font-size: 30px;
+ }
+
+.add {
+    width: 20%;
+    font-size: 100px;
+    font-family: Arial;
+    text-transform: uppercase;
+    border-right: 10px solid black;
+    background: hotpink;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+ .add h2 {
+     padding-bottom: 50px;
+     margin: 0;
+ }
+
+
+
+
+
+
+
